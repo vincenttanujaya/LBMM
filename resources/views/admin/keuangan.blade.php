@@ -9,14 +9,14 @@
                 <div class="tbl">
                     <div class="tbl-row">
                         <div class="tbl-cell">
-                            <h2>Data Motor</h2>
+                            <h2>Keuangan LBMM</h2>
                         </div>
                     </div>
                 </div>
             </header>
             <button class="btn btn-inline btn-primary"
       data-toggle="modal"
-      data-target=".bd-example-modal-lg">Tambah Data Motor</button>
+      data-target=".bd-example-modal-lg">Tambah Laporan Keuangan</button>
 
     <div class="modal fade bd-example-modal-lg"
       tabindex="-1"
@@ -29,11 +29,10 @@
         <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
          <i class="font-icon-close-2"></i>
         </button>
-        <h4 class="modal-title" id="myModalLabel">Tambah Data Motor</h4>
+        <h4 class="modal-title" id="myModalLabel">Tambah Keuangan</h4>
        </div>
        <div class="modal-body">
             <form>
-                <div class="box-typical box-typical-padding">
                     <div class="form-group row">
                      <label class="col-sm-2 form-control-label">Tipe Motor</label>
                         <div class="col-sm-10">
@@ -64,8 +63,7 @@
                                                <p class="form-control-static"><input type="number" class="form-control" id="inputPassword" placeholder="KM"></p>
                                            </div>
                                 </div>
-                </div>
-                            </form>
+            </form>
        </div>
        <div class="modal-footer">
         <button type="button" class="btn btn-rounded btn-default" data-dismiss="modal">Close</button>
@@ -77,56 +75,36 @@
             <table id="example" class="display table table-striped table-bordered" cellspacing="0" width="100%">
                 <thead>
                 <tr>
-                    <th>ID Motor</th>
-                    <th>Tipe Motor</th>
-                    <th>Merk Motor</th>
-                    <th>Tahun Motor</th>
-                    <th>No.Polisi</th>
-                    <th>KM</th>
-                    <th>Aksi</th>
+                    <th>ID Keuangan</th>
+                    <th>Tanggal</th>
+                    <th>Jumlah Uang</th>
+                    <th>Pemasukkan</th>
+                    <th>Pengeluaran</th>
+                    <th>Debit</th>
+                    <th>Kredit</th>
+                    <th>Keterangan</th>
+                    
                 </tr>
                 </thead>
                 <tbody>
                         <tr>
-                            <td>M0001</td>
-                            <td>Ride Apart</td>
-                            <td>Honda</td>
-                            <td>2016</td>
-                            <td>B 2441 SOA</td>
-                            <td>400</td>
-                            <td>
-                                    <button type="button" class="btn btn-sm btn-inline btn-primary">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-inline btn-danger">Hapus</button>
-                            </td>
+                            <td>L0001</td>
+                            <td>27/11/2018</td>
+                            <td>200.000</td>
+                            <td>1.000.000</td>
+                            <td>500.000</td>
+                            <td>0</td>
+                            <td>0</td>
+                            <td></td>
+                          
                         </tr>
-                        <tr>
-                                <td>M0002</td>
-                                <td>Ride Apart</td>
-                                <td>Suzuki</td>
-                                <td>2014</td>
-                                <td>L 1345 QYZ</td>
-                                <td>600</td>
-                            <td>
-                                    <button type="button" class="btn btn-sm btn-inline btn-primary">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-inline btn-danger">Hapus</button>
-                            </td>
-                        </tr>
-                        <tr>
-                                <td>M0003</td>
-                                <td>Sport Touring</td>
-                                <td>Yamaha</td>
-                                <td>2017</td>
-                                <td>W 2365 YTP</td>
-                                <td>700</td>
-                            <td>
-                                    <button type="button" class="btn btn-sm btn-inline btn-primary">Edit</button>
-                                    <button type="button" class="btn btn-sm btn-inline btn-danger">Hapus</button>
-                            </td>
-                        </tr>
+                       
                         
                 </tbody>
             </table>
+            <button type="button" class="btn btn-primary btn-sm">Unduh Laporan</button>
         </div>
+        
     </section>
 </div><!--.container-fluid-->
 @endsection

@@ -60,7 +60,7 @@
 	                        <i class="font-icon-menu-addl"></i>
 	                    </button>
 	                </div><!--.site-header-shown-->
-                    <h2>POINT OF SALES LBMM</h2>
+                    <h2><b>POINT OF SALES LBMM</b></h2>
 	                <div class="mobile-menu-right-overlay"></div>
 	            </div><!--site-header-content-in-->
 	        </div><!--.site-header-content-->
@@ -71,33 +71,33 @@
 	<nav class="side-menu">
 	    <ul class="side-menu-list">
 	        <li class="red">
-	            <a href="mail.html">
+	            <a href="/notatransaksi">
 	                <i class="font-icon glyphicon glyphicon-send"></i>
-	                <span class="lbl">Transaksi</span>
+	                <span class="lbl" href="/notatransaksi">Transaksi</span>
 	            </a>
 	        </li>
-	        <li class="brown with-sub">
+	        <li class="red with-sub">
 	            <span>
 	                <i class="font-icon glyphicon glyphicon-tint"></i>
 	                <span class="lbl">Data</span>
 	            </span>
 	            <ul>
-	                <li><a href="theme-side-ebony-clay.html"><span class="lbl">Pelanggan</span></a></li>
-	                <li><a href="theme-side-madison-caribbean.html"><span class="lbl">Mekanik</span></a></li>
-	                <li><a href="theme-side-caesium-dark-caribbean.html"><span class="lbl">Sparepart</span></a></li>
-                    <li><a href="theme-side-tin.html"><span class="lbl">Distributor Sparepart</span></a></li>
+	                <li><a href="/datapelanggan"><span class="lbl">Pelanggan</span></a></li>
+	                <li><a href="/datamekanik"><span class="lbl">Mekanik</span></a></li>
+	                <li><a href="/datasparepart"><span class="lbl">Sparepart</span></a></li>
+                    <li><a href="/datadistributor"><span class="lbl">Distributor Sparepart</span></a></li>
                     <li><a href="/datamotor"><span class="lbl">Motor</span></a></li>
-                    <li><a href="theme-side-tin.html"><span class="lbl">Jenis Servis</span></a></li>
+                    <li><a href="/dataservis"><span class="lbl">Jenis Servis</span></a></li>
                 </ul>
 	        </li>
-	        <li class="purple with-sub">
+	        <li class="red with-sub">
 	            <span>
-	                <i class="font-icon font-icon-comments active"></i>
+	                <i class="font-icon font-icon-comments"></i>
 	                <span class="lbl">Laporan</span>
 	            </span>
 	            <ul>
-	                <li><a href="messenger.html"><span class="lbl">Keuangan</span></a></li>
-	                <li><a href="chat.html"><span class="lbl">Transaksi</span><span class="label label-custom label-pill label-danger">8</span></a></li>
+	                <li><a href="/laporankeuangan"><span class="lbl">Keuangan</span></a></li>
+	                <li><a href="/laporantransaksi"><span class="lbl">Transaksi</span></a></li>
 	            </ul>
             </li>
 	</nav><!--.side-menu-->
