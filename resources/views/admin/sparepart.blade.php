@@ -37,13 +37,13 @@
                     <div class="form-group row">
                      <label class="col-sm-2 form-control-label">Nama Sparepart</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Tipe Motor"></p>
+                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Nama Sparepart"></p>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 form-control-label">Jumlah Ketersediaan</label>
                                <div class="col-sm-10">
-                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Merk Motor"></p>
+                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Jumlah Ketersediaan"></p>
                                </div>
                     </div>
             </form>

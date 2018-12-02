@@ -37,19 +37,19 @@
                     <div class="form-group row">
                      <label class="col-sm-2 form-control-label">Nama Distributor</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Tipe Motor"></p>
+                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Nama Distributor"></p>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 form-control-label">Alamat</label>
                                <div class="col-sm-10">
-                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Merk Motor"></p>
+                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Alamat"></p>
                                </div>
                     </div>
                     <div class="form-group row">
                             <label class="col-sm-2 form-control-label">No. Telepon</label>
                                    <div class="col-sm-10">
-                                       <p class="form-control-static"><input type="number" class="form-control" id="inputPassword" placeholder="Tahun Motor"></p>
+                                       <p class="form-control-static"><input type="number" class="form-control" id="inputPassword" placeholder="No. Telepon"></p>
                                    </div>
                         </div>
             </form>

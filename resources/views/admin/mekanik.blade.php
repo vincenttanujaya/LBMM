@@ -37,19 +37,19 @@
                     <div class="form-group row">
                      <label class="col-sm-2 form-control-label">Nama Mekanik</label>
                         <div class="col-sm-10">
-                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Tipe Motor"></p>
+                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Nama Mekanik"></p>
                         </div>
                     </div>
                     <div class="form-group row">
                         <label class="col-sm-2 form-control-label">Angkatan</label>
                                <div class="col-sm-10">
-                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Merk Motor"></p>
+                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Angkatan"></p>
                                </div>
                     </div>
                     <div class="form-group row">
                             <label class="col-sm-2 form-control-label">Jabatan</label>
                                    <div class="col-sm-10">
-                                       <p class="form-control-static"><input type="number" class="form-control" id="inputPassword" placeholder="Tahun Motor"></p>
+                                       <p class="form-control-static"><input type="number" class="form-control" id="inputPassword" placeholder="Jabatan"></p>
                                    </div>
                         </div>
             </form>
