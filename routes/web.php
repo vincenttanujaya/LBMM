@@ -18,3 +18,11 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
+
+Route::get('/datamotor', function () {
+    return view('admin/motor');
+});
+
+Route::get('/tambahdatamotor', function () {
+    return view('admin/tambahmotor');
+});

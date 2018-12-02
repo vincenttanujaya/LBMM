@@ -23,90 +23,10 @@
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body class="with-side-menu theme-side-caesium-dark-caribbean">
-
-	<header class="site-header">
-	    <div class="container-fluid">
-	        <a href="#" class="site-logo">
-	            <img class="hidden-md-down" src="img/LBMM.png" alt="">
-	            {{-- <img class="hidden-lg-up" src="img/LBMM.png" alt=""> --}}
-	        </a>
-	        <button class="hamburger hamburger--htla">
-	            <span>toggle menu</span>
-	        </button>
-	        <div class="site-header-content">
-	            <div class="site-header-content-in">
-	                <div class="site-header-shown">
-	                    
-	                    <div class="dropdown user-menu">
-	                        <button class="dropdown-toggle" id="dd-user-menu" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-	                            <img src="img/avatar-2-64.png" alt="">
-	                        </button>
-	                        <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dd-user-menu">
-	                            <a class="dropdown-item" href="#"><span class="font-icon glyphicon glyphicon-question-sign"></span>Help</a>
-	                            <div class="dropdown-divider"></div>
-	                            <a class="dropdown-item" href="{{ route('logout') }}"
-                                    onclick="event.preventDefault();
-                                                    document.getElementById('logout-form').submit();">
-                                    {{ __('Logout') }}
-                                </a>
-
-                                <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
-                                    @csrf
-                                </form>
-                            </div>
-	                    </div>
-	
-	                    <button type="button" class="burger-right">
-	                        <i class="font-icon-menu-addl"></i>
-	                    </button>
-	                </div><!--.site-header-shown-->
-                    <h2>POINT OF SALES LBMM</h2>
-	                <div class="mobile-menu-right-overlay"></div>
-	            </div><!--site-header-content-in-->
-	        </div><!--.site-header-content-->
-	    </div><!--.container-fluid-->
-	</header><!--.site-header-->
-
-	<div class="mobile-menu-left-overlay"></div>
-	<nav class="side-menu">
-	    <ul class="side-menu-list">
-	        <li class="red">
-	            <a href="mail.html">
-	                <i class="font-icon glyphicon glyphicon-send"></i>
-	                <span class="lbl">Transaksi</span>
-	            </a>
-	        </li>
-	        <li class="brown with-sub">
-	            <span>
-	                <i class="font-icon glyphicon glyphicon-tint"></i>
-	                <span class="lbl">Data</span>
-	            </span>
-	            <ul>
-	                <li><a href="theme-side-ebony-clay.html"><span class="lbl">Pelanggan</span></a></li>
-	                <li><a href="theme-side-madison-caribbean.html"><span class="lbl">Mekanik</span></a></li>
-	                <li><a href="theme-side-caesium-dark-caribbean.html"><span class="lbl">Sparepart</span></a></li>
-                    <li><a href="theme-side-tin.html"><span class="lbl">Distributor Sparepart</span></a></li>
-                    <li><a href="/datamotor"><span class="lbl">Motor</span></a></li>
-                    <li><a href="theme-side-tin.html"><span class="lbl">Jenis Servis</span></a></li>
-                </ul>
-	        </li>
-	        <li class="purple with-sub">
-	            <span>
-	                <i class="font-icon font-icon-comments active"></i>
-	                <span class="lbl">Laporan</span>
-	            </span>
-	            <ul>
-	                <li><a href="messenger.html"><span class="lbl">Keuangan</span></a></li>
-	                <li><a href="chat.html"><span class="lbl">Transaksi</span><span class="label label-custom label-pill label-danger">8</span></a></li>
-	            </ul>
-            </li>
-	</nav><!--.side-menu-->
-
-	<div class="page-content">
-        <main class="py-4">
+		
+		<main class="py-4">
             @yield('content')
         </main>
-    </div>
 
 	<script src="js/lib/jquery/jquery-3.2.1.min.js"></script>
 	<script src="js/lib/popper/popper.min.js"></script>
