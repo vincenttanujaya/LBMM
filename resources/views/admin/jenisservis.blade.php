@@ -14,12 +14,53 @@
                     </div>
                 </div>
             </header>
-            <button action="/tambahdatamotor" class="btn btn-sm btn-inline btn-primary">Tambahkan Data Baru</button>
+            <button class="btn btn-inline btn-primary"
+      data-toggle="modal"
+      data-target=".bd-example-modal-lg">Tambah Data Baru</button>
+
+    <div class="modal fade bd-example-modal-lg"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myLargeModalLabel"
+      aria-hidden="true">
+     <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+       <div class="modal-header">
+        <button type="button" class="modal-close" data-dismiss="modal" aria-label="Close">
+         <i class="font-icon-close-2"></i>
+        </button>
+        <h4 class="modal-title" id="myModalLabel">Tambah Data Baru</h4>
+       </div>
+       <div class="modal-body">
+            <div class="box-typical box-typical-padding">
+            <form>
+                    <div class="form-group row">
+                     <label class="col-sm-2 form-control-label">Nama Jenis Servis</label>
+                        <div class="col-sm-10">
+                            <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Nama Jenis Servis"></p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-sm-2 form-control-label">Keterangan</label>
+                               <div class="col-sm-10">
+                                   <p class="form-control-static"><input type="text" class="form-control" id="inputPassword" placeholder="Keterangan"></p>
+                               </div>
+                    </div>
+            </form>
+            </div>
+       </div>
+       <div class="modal-footer">
+        <button type="button" class="btn btn-rounded btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-rounded btn-primary">Save changes</button>
+       </div>
+      </div>
+     </div>
+    </div><!--.modal-->
             <table id="example" class="display table table-striped table-bordered" cellspacing="0" width="100%">
                 <thead>
                 <tr>
                     <th>ID Servis</th>
-                    <th>Nama</th>
+                    <th>Nama Jenis Servis</th>
                     <th>Keterangan</th>
                     <th>Aksi</th>
                 </tr>
